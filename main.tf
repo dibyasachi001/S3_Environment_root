@@ -1,6 +1,7 @@
+
 module "S3_Bucket" {
-  source = "./S3_Environment/S3_BUCKET"
-  # source   = "github.com/dibyasachi001/S3_Environment/S3_BUCKET"
+  # source = "./S3_Environment/S3_BUCKET"
+  source   = "github.com/dibyasachi001/S3_Environment/S3_BUCKET"
 
   providers = {
     aws.primary   = aws.primary_central
